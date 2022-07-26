@@ -1,0 +1,16 @@
+{
+  "functions": { "source": ".output/server" },
+  "hosting": 
+    {
+      "site": "gunn-one",
+      "public": ".output/public",
+      "cleanUrls": true,
+      "rewrites": [{ "source": "**", "function": "server" }]
+    }
+  ,
+  "emulators": {
+    "hosting": {
+      "port": 4000
+    }
+  }
+}

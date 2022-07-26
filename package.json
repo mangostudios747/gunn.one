@@ -1,0 +1,31 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.7",
+    "firebase-admin": "^11.0.0",
+    "firebase-functions": "^3.22.0",
+    "firebase-functions-test": "^2.2.0",
+    "nuxt": "3.0.0-rc.6",
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.1.6"
+  },
+  "dependencies": {
+    "@headlessui/vue": "^0.0.0-insiders.5af3bd4",
+    "@nuxt-hero-icons/outline": "^1.0.1",
+    "@nuxt-hero-icons/solid": "^1.0.1",
+    "@vue-hero-icons/solid": "^1.7.2",
+    "add": "^2.0.6",
+    "apollo-server": "^3.10.0",
+    "apollo-server-express": "^3.10.0",
+    "express": "^4.18.1",
+    "graphql": "^16.5.0",
+    "vue-scroll": "^2.1.13",
+    "yarn": "^1.22.19"
+  }
+}
